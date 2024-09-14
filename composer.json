@@ -1,0 +1,26 @@
+{
+    "name": "delux/car",
+    "description": "description of luxus car",
+    "type": "monolog",
+    "require": {
+                "monolog/monolog": "^3.4",
+                "phpunit/phpunit": "^10.4"
+               },
+    "authors": [
+        {
+            "name": "john Porsche"
+        }
+    ],	
+	"autoload":{
+		        "psr-4" : 
+				           {					        
+                            "Vehicle\\": "app/Essence/",
+						    "Vehicle\\MoteurEssence\\": "app/Essence/Motorisation/",	
+							"option\\": "app/Option/"     
+                                                                          	       
+                            }
+	           },
+    "scripts" : {
+                "test" : "./vendor/bin/phpunit -c phpunit.xml"
+              }           
+}

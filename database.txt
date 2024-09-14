@@ -1,0 +1,85 @@
+
+ACCUEIL id=1
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/CAPTAIN.jpg" onClick="return enlarge('View/IMG/CAPTAIN.jpg',event)">
+
+<img class="image-clignote" src="View/IMG/CAPTAIN.jpg" border="0">
+
+</a>
+
+
+
+NOS PIZZAS  id=2
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/4-from.jpg" onClick="return enlarge('View/IMG/4-from.jpg',event)">
+
+<img class="image-clignote" src="View/IMG/4-from.jpg" border="0">
+
+</a>
+
+
+NOS BOISSONS id = 3
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/nos-boissons.gif" onClick="return enlarge('View/IMG/nos-boissons.gif',event)">
+
+<img class="image-clignote" src="View/IMG/nos-boissons.gif" border="0">
+
+</a>
+
+
+NOS PANINIS  id=4
+
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/Paninis.jpg" onClick="return enlarge('View/IMG/Paninis.jpg',event)">
+
+<img class="image-clignote" src="View/IMG/Paninis.jpg" border="0">
+
+</a>
+
+
+NOS BURGERS  id=5
+
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/BURGERS.jpg" onClick="return enlarge('View/IMG/BURGERS.jpg',event)">
+
+<img class="image-clignote" src="View/IMG/BURGERS.jpg" border="0">
+
+</a>
+
+NOS SALADES  id=6
+
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/Salades.jpg" onClick="return enlarge('View/IMG/Salades.jpg',event)">
+
+<img class="image-clignote" src="View/IMG/Salades.jpg" border="0">
+
+</a>
+
+
+NOS DESSERTS  id=7
+
+
+<div id="showimage"></div>
+
+<a  href="View/IMG/Dessert.jpg" onClick="return enlarge('View/IMG/Dessert.jpg',event)">
+
+<img class="image-clignote" src="View/IMG/Dessert.jpg" border="0">
+
+</a>
+
+
+
+
+

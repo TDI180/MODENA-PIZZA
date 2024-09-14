@@ -1,0 +1,106 @@
+[
+	{
+		"path" : "/",
+		"controller" : "Home",
+		"action" : "home",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+    },
+	{
+		"path" : "/Pizza",
+		"controller" : "Pizza",
+		"action" : "Pizza",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	},
+	{
+		"path" : "/Boisson",
+		"controller" : "Boisson",
+		"action" : "Boisson",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	},
+	{
+		"path" : "/Paninis",
+		"controller" : "Paninis",
+		"action" : "Paninis",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	},
+	{
+		"path" : "/Burgers",
+		"controller" : "Burgers",
+		"action" : "Burgers",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	},
+	{
+		"path" : "/Salades",
+		"controller" : "Salades",
+		"action" : "Salades",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	},
+    {
+		"path" : "/Dessert",
+		"controller" : "Dessert",
+		"action" : "Dessert",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+    },
+    {
+		"path" :"/authenticated",
+		"controller" :"User",
+		"action" :"authenticated",
+		"method" :"POST",
+		"param" :["login","password"],
+		"manager":["User"]
+    },
+    {
+		"path" : "/Error",
+		"controller" : "Error",
+		"action" : "Show",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+    },
+	{
+		"path" : "/zebi",
+		"controller" : "Home",
+		"action" : "home",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	},
+	{
+		"path" : "/Subscribe",
+		"controller" :"Subscribe",
+		"action" :"Subscribe",
+		"method" :"GET",
+		"param" : [],
+		"manager": []
+	},
+	{
+		"path" :"/Insert",
+		"controller" :"Subscribe",
+		"action" :"Insert",
+		"method" :"POST",
+		"param" :["login","password"],
+		"manager":["User"]
+    },
+	{
+		"path" : "/Name",
+		"controller" : "Name",
+		"action" : "Name",
+		"method" : "GET",
+		"param" : [],
+		"manager": []
+	}
+]

@@ -1,0 +1,128 @@
+@media screen {
+    .wrapper { width:98%; }
+}
+
+@media screen and (max-width: 60em) {
+    .static.default_homepage .main { width:63%; }
+}
+
+@media screen and (max-width: 55em) { /* 880px */
+    /* Home page */
+    .home_page_tabs .subscription_form .text_field { width:60%; }
+}
+
+@media screen and (max-width: 48em) { /* 768px */
+    .wrapper { position:static; padding-left:1.5%; padding-right:1.5%; width:97%; }
+
+    .static.default_homepage .main { float:none; width:100%; }
+    .static.default_homepage .side { margin-top:2em; }
+    .static.default_homepage .main .main_wrapper { padding-top:.5em; }
+
+    .header { background:#fff; }
+    .user_login { top:0; padding:.5em; color:#3d311b; font-size:15px; font-size:1.5rem; font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif; background:none; }
+    .user_login a { color:#c18a00; }
+    .user_login a:hover { color:#000; }
+    .user_login .social { display:none; }
+
+    .menu li { display:block; float:none; margin:0 !important; border-bottom:1px solid #3d311b; }
+    .menu li:last-child { border:none; }
+    .menu a { display:block; margin:0; padding:.5em .3em .5em 1em; }
+    .menu .home.active:before { display:none; }
+
+    .content .main { padding-top:1px; border-radius:0; }
+    .main .main_wrapper { margin: 1em 1.5% 0; }
+    .static .main .main_wrapper { margin-left:3%; margin-right:3%; }
+
+    .products_banner { margin-left:-1.5%; }
+
+    .basket_holder, .shop_info_holder  { background-color: transparent; }
+    .basket_content { border-radius:0; }
+
+    .offer_banner { margin-top: 0; }
+
+    .footer { text-align:center; }
+    .footer .copyright { float:none;  }
+
+    /* Home page */
+    .page_index .content { margin-top:.5em; }
+    .page_index .user_login { top:35px; }
+    .page_index .open_menu_wrapper { display:block; }
+    .page_index .menu { display:none; }
+    .page_index .order_online {display:none;}
+    .page_index .mobile_order_online {display:block; text-align: center; margin-bottom: 2em;}
+
+    .cycle-slideshow > div { max-width:100%; }
+    .slideshow_layout img { max-width:100%; }
+
+    .shop_selection_layout { position:static; margin-bottom:2em; width:100%; box-sizing:border-box; }
+
+    .home_page_tabs .tab, .home_page_tabs .tab:last-child { float:none; margin-left:auto; margin-right:auto; width:90%; }
+    .home_page_tabs .subscription_form  { text-align:center; }
+
+    .slide_banner_contaner { padding-left:1.5%; padding-right:1.5%; }
+
+    /* Pizza page */
+    .crust_selection .crust_select { display:block; }
+    .crust_selection ul { display:none; }
+
+    .selection_step .tabs_nav_select { display:block; }
+    .selection_step .tabs_nav { display:none; }
+
+   /* Static pages */
+   .nearest_shop_wrapper .find_shop label { font-size:2.5rem; line-height:1.2; }
+   .nearest_shop_wrapper .find_shop select { padding:0; }
+
+    .shops_list .shop_details { width:48%; }
+    .shops_list .shop_details.clear_medium { clear:left; }
+    .shops_list .shop_details.clear_large { clear:none; }
+
+   .settings_section .delivery_information_warning { margin: .3rem 0 0 0;}
+}
+
+@media screen and (max-width: 37.5em) { /* 600px */
+    .content > .wrapper { padding:0; width:100%; }
+    .logo_layout a span { margin-top:50px; font-size:15px; font-size:1.5rem; line-height:1.2; }
+
+    .products_banner { display:none; }
+    .products_banner_prod_list { float:none; width:100%; }
+    .loginInformation { border-left: 0; border-right: 0; border-radius: 0; }
+
+    .slide_banner_contaner { padding:0; }
+    .slide_banner_contaner .wrapper { border-radius:0; }
+
+    .nearest_shop_wrapper .map #map-canvas { height:400px; }
+}
+
+@media screen and (max-width: 30em) { /* 480px */
+    .logo_layout a span { display:none; }
+
+    .popup_pizza_info .size_info li { width:48%; }
+    .popup_pizza_info .size_info li:nth-child(3) { clear:left; }
+    .popup_pizza_info .base_info li { width:98%; }
+
+    /* Home page */
+    .home_page_tabs .tab,
+    .home_page_tabs .tab:last-child { width:100%; }
+
+    /* Static pages */
+    .shops_list .postal_code_shops .shop_details { width:100%; margin-left:0 !important; }
+
+    .upselling_popup { left:0; margin-left:0; width:100%; }
+    .upselling_popup .buttons .button { float:none; }
+
+    .settings_section .loyalty .loyalty_points_info .how_to,
+    .settings_section .loyalty .loyalty_points_info .balance { float:none; width:100%; }
+}
+
+@media screen and (max-width: 20em) {
+    .points_balance .earned_points_popup { max-width:280px; }
+    .points_balance .earned_points_popup img { max-width:100%; }
+}
+
+@media screen and (max-width: 30em), screen and (max-width: 48em) and (min-width: 37.5625em) { /* 480px 768 601 */
+     /* Drinks page */
+    .drinks .prod_block { width:47%; border-right:1px solid #b3b3b3; }
+    .drinks .grid_wrapper .prod_block:nth-child(3n+1) { clear:none; border-right:1px solid #b3b3b3; }
+    .drinks .grid_wrapper .prod_block:nth-child(2n) { border:none; }
+    .drinks .grid_wrapper .prod_block:nth-child(2n+1) { clear:left; }
+}

@@ -1,0 +1,4 @@
+.DS_Store
+Thumbs.db
+# exclude everything from directory /vendor
+/vendor

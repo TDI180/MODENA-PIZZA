@@ -1,0 +1,38 @@
+
+sur locahost
+lancer training sur VIRTUALHOST
+
+POUR SECURISER SA BASE DE DONNEES
+
+A/UTILISER LE HACHAGE
+
+VOIR VIDEO DE GRAPHIK-ART :
+https://www.youtube.com/watch?v=FP8-PuGtBgQ&ab_channel=Grafikart.fr
+
+B/SQL INJECTION
+https://www.youtube.com/watch?v=bHmiPghYZtA&ab_channel=Grafikart.fr
+
+
+C/CRYPTAGE DE LA BASE DE DONNEE
+
+
+
+Inclure un fichier = GAIN DE TEMPS ET SECURITE
+
+Récupérer des données présentes dans un fichier évite de les dupliquer sur plusieurs pages.
+Ceci facilite donc la gestion du site et renforce la sécurité si vos données sont sensibles. 
+On pourra par exemple inclure dans notre fichier PHP un autre fichier PHP qui contient la structure des pages,
+ ou les balises meta de début de page, ou les constantes et fonctions du site...  
+
+<?php include ($_SERVER['DOCUMENT_ROOT']."/inc/connect.php"); ?>
+
+_SERVER["DOCUMENT_ROOT"]=chemin d accés au dossier du site
+
+balise php=le script ne peut etre directement lu
+rappel: php est un langage interpreté
+
+Dans l'exemple ci-dessus, on inclut avant un script d'interrogation de base de données, le fichier contenant les paramètres de connexion au serveur MySQL.
+ Ce fichier aura pour extension .php et contiendra les balises d'ouverture et de fermeture du code PHP afin notamment 
+ qu'il ne puisse être directement lu (le PHP étant interprété).
+
+

@@ -1,0 +1,62 @@
+{
+	"autoloadFolder":
+	[
+		"Framework",
+		"Controller",
+		"Model",
+		"View",	
+		"Framework/Exception",
+		"Model/Pizza",
+		"Model/Boisson",
+		"Model/Paninis",	
+		"Model/Burgers",
+		"Model/Salades",
+		"Model/Dessert",
+		"Model/Name",
+		"Model/Manager",
+		"Model/Entite",
+		"Model/Forum",	
+		"Model/Adress",
+		"Model/Register",
+		"Model/Subscribe",	
+		"Model/Home",		
+		"View/Name",
+		"View/Forum",
+		"View/Adress",
+		"View/Register",
+		"View/Subscribe",
+		"View/Home"			     
+	                                        ],		
+	"database-mvc":  {
+											"name": "mvc",
+											"host": "localhost",
+											"user": "root",
+											"password": "",
+											"table": "customer"
+										},
+
+	"database-blog":  {
+										"name": "blog",
+										"host": "localhost",
+										"user": "root",
+										"password": "",
+										"table": "article"			 
+									         	},	
+	"database-modena": {
+											"name": "modena",
+											"host": "localhost",
+											"user": "root",
+											"password": "",
+											"table": "homepage"
+			                            	},
+	"database-clients": {
+												"name": "clients ",
+												"host": "localhost",
+												"user": "root",
+												"password": "",
+												"table": " liste-clients "
+											},
+
+	"basepath": "PHP/MODENA-PIZZA/"
+}
+
