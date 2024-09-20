@@ -72,7 +72,7 @@
 		"manager": []
     },
 	{
-		"path" : "/zebi",
+		"path" : "/hondacbr750",
 		"controller" : "Home",
 		"action" : "home",
 		"method" : "GET",

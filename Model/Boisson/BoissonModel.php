@@ -1,7 +1,7 @@
 <?php
                  class BoissonModel extends BaseManager
                                    {
-                                    private $Message;        
+                                       private $Message;        
                                                 public function __construct($name,$table)
                                                                                                     {
                                                                                                     // $configFileUser = file_get_contents("Config/config.json");
